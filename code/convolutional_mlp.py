@@ -39,7 +39,7 @@ from create_face_batch import load_data
 from mlp import HiddenLayer
 
 
-
+"""
 try:
     from CrossMapNorm.python.response_norm import (
         CrossMapNorm,
@@ -49,7 +49,7 @@ try:
     from theano.sandbox.cuda import gpu_from_host
 except ImportError:
     raise SkipTest('cuda not available')
-
+"""
 
 class LeNetConvPoolLayer(object):
     """Pool Layer of a convolutional network """
